@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exo02", "Exo02\Exo02.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-Conditionnel", "Demo-Conditionnel\Demo-Conditionnel.csproj", "{E45E37CC-2555-4729-82D9-4E246FBA2DD8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exo03", "Exo03\Exo03.csproj", "{58E87BEA-9519-4695-95EA-B14DB61D2A52}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{E45E37CC-2555-4729-82D9-4E246FBA2DD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E45E37CC-2555-4729-82D9-4E246FBA2DD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E45E37CC-2555-4729-82D9-4E246FBA2DD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58E87BEA-9519-4695-95EA-B14DB61D2A52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58E87BEA-9519-4695-95EA-B14DB61D2A52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58E87BEA-9519-4695-95EA-B14DB61D2A52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58E87BEA-9519-4695-95EA-B14DB61D2A52}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
