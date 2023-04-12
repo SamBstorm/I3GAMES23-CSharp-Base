@@ -31,6 +31,16 @@
 
             Console.WriteLine($"Bonjour à vous, {name} {first_name}!");
             Console.WriteLine($"Vous ne faites pas vos {years_old} ans!");
+
+            //OU 
+
+            Console.WriteLine("Bonjour à vous, " + name + " " + first_name + "!");
+            Console.WriteLine("Vous ne faites pas vos " + years_old + " ans!");
+
+            //OU
+
+            Console.WriteLine("Bonjour à vous, {0} {1}!", name, first_name);
+            Console.WriteLine("Vous ne faites pas vos {0} ans!", years_old);
         }
     }
 }
