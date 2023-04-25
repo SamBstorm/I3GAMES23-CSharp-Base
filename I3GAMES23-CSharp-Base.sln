@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exo04", "Exo04\Exo04.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-Substring", "Demo-Substring\Demo-Substring.csproj", "{20BC9D92-5E7D-457A-9981-6927AA3449F6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exo05-BBAN", "Exo05-BBAN\Exo05-BBAN.csproj", "{FEC3FEFE-8A05-417B-8F79-46DEB2D06CAC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{20BC9D92-5E7D-457A-9981-6927AA3449F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20BC9D92-5E7D-457A-9981-6927AA3449F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20BC9D92-5E7D-457A-9981-6927AA3449F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEC3FEFE-8A05-417B-8F79-46DEB2D06CAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEC3FEFE-8A05-417B-8F79-46DEB2D06CAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEC3FEFE-8A05-417B-8F79-46DEB2D06CAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEC3FEFE-8A05-417B-8F79-46DEB2D06CAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
