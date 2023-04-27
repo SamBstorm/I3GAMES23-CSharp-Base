@@ -7,47 +7,63 @@ namespace Demo_Boucles
         static void Main(string[] args)
         {
             #region Démo While : Simple boucle
-            Console.OutputEncoding = Encoding.UTF8; // Pour changer l'encodage de la Console (Permet les Smiley!)
-            //1. Initialisation de la variable : Elle doit avoir une valeur de départ avant la boucle!
-            int x = 0;
+            //Console.OutputEncoding = Encoding.UTF8; // Pour changer l'encodage de la Console (Permet les Smiley!)
+            ////1. Initialisation de la variable : Elle doit avoir une valeur de départ avant la boucle!
+            //int x = 0;
 
-            //2. Condition sur la variable : Selon la condition, on entre dans la boucle ou on passe à la suite
-            while (x < 10)
-            {
-                Console.WriteLine($"x vaut : {x}");
-                //3. Modification de la variable dans la boucle : Si la valeur ne change pas, on reste bloqué à jamais dans la boucle
-                x++;                                    // x = x + 1
-            }
+            ////2. Condition sur la variable : Selon la condition, on entre dans la boucle ou on passe à la suite
+            //while (x < 10)
+            //{
+            //    Console.WriteLine($"x vaut : {x}");
+            //    //3. Modification de la variable dans la boucle : Si la valeur ne change pas, on reste bloqué à jamais dans la boucle
+            //    x++;                                    // x = x + 1
+            //}
 
-            Console.WriteLine($"Au final x vaudra : {x} 😉👍"); 
+            //Console.WriteLine($"Au final x vaudra : {x} 😉👍"); 
             #endregion
 
             #region Démo While : boucle blocante
-            /*Console.WriteLine("Veuillez introduire un nombre (entre 1 et 10):");
-                string nb1_str = Console.ReadLine();
-                short nb1;
-                bool is_convert = short.TryParse(nb1_str, out nb1);
-                while(!is_convert)
-                {
-                    Console.WriteLine($"{nb1_str} n'est pas un nombre.");
-                    Console.WriteLine("Veuillez introduire un nombre (entre 1 et 10):");
-                    nb1_str = Console.ReadLine();
-                    is_convert = short.TryParse(nb1_str, out nb1);
-                }
-                while (nb1 < 1 || nb1 > 10)
-                {
-                    Console.WriteLine("Ce n'est pas un nombre entre 1 et 10...😔");
-                    nb1_str = Console.ReadLine();
-                    is_convert = short.TryParse (nb1_str, out nb1);
-                    while (!is_convert)
-                    {
-                        Console.WriteLine($"{nb1_str} n'est pas un nombre.");
-                        Console.WriteLine("Veuillez introduire un nombre (entre 1 et 10):");
-                        nb1_str = Console.ReadLine();
-                        is_convert = short.TryParse(nb1_str, out nb1);
-                    }
-                }
-                Console.WriteLine("C'est bien un nombre entre 1 et 10!");*/
+            //Console.WriteLine("Veuillez introduire un nombre (entre 1 et 10):");
+            //string nb1_str = Console.ReadLine();
+            //short nb1;
+            //bool is_convert = short.TryParse(nb1_str, out nb1);
+            //while (!is_convert)
+            //{
+            //    Console.WriteLine($"{nb1_str} n'est pas un nombre.");
+            //    Console.WriteLine("Veuillez introduire un nombre (entre 1 et 10):");
+            //    nb1_str = Console.ReadLine();
+            //    is_convert = short.TryParse(nb1_str, out nb1);
+            //}
+            //while (nb1 < 1 || nb1 > 10)
+            //{
+            //    Console.WriteLine("Ce n'est pas un nombre entre 1 et 10...😔");
+            //    nb1_str = Console.ReadLine();
+            //    is_convert = short.TryParse(nb1_str, out nb1);
+            //    while (!is_convert)
+            //    {
+            //        Console.WriteLine($"{nb1_str} n'est pas un nombre.");
+            //        Console.WriteLine("Veuillez introduire un nombre (entre 1 et 10):");
+            //        nb1_str = Console.ReadLine();
+            //        is_convert = short.TryParse(nb1_str, out nb1);
+            //    }
+            //}
+            //Console.WriteLine("C'est bien un nombre entre 1 et 10!");
+            #endregion
+
+            #region Démo Do...While : Blocante
+
+            string nb1_str;
+            short nb1;
+            bool is_convert;
+            string message = "Veuillez introduire un nombre (entre 1 et 10):";
+            do {
+                Console.WriteLine(message);
+                nb1_str = Console.ReadLine();
+                message = $"{nb1_str} n'est pas un nombre.\n" + message;
+                is_convert = short.TryParse(nb1_str, out nb1);
+            }
+            while (!is_convert) ;
+
             #endregion
         }
     }
