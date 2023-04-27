@@ -6,16 +6,21 @@ namespace Demo_Boucles
     {
         static void Main(string[] args)
         {
+            #region Démo While : Simple boucle
+            Console.OutputEncoding = Encoding.UTF8; // Pour changer l'encodage de la Console (Permet les Smiley!)
+            //1. Initialisation de la variable : Elle doit avoir une valeur de départ avant la boucle!
             int x = 0;
 
-            while (x < 10) {
-                Console.WriteLine( $"x vaut : {x}" );
+            //2. Condition sur la variable : Selon la condition, on entre dans la boucle ou on passe à la suite
+            while (x < 10)
+            {
+                Console.WriteLine($"x vaut : {x}");
+                //3. Modification de la variable dans la boucle : Si la valeur ne change pas, on reste bloqué à jamais dans la boucle
                 x++;                                    // x = x + 1
             }
 
-            Console.WriteLine($"Au final x vaudra : {x}");
-
-
+            Console.WriteLine($"Au final x vaudra : {x} 😉👍"); 
+            #endregion
 
             #region Démo While : boucle blocante
             /*Console.WriteLine("Veuillez introduire un nombre (entre 1 et 10):");
