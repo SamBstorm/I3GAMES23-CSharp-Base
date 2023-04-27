@@ -52,17 +52,34 @@ namespace Demo_Boucles
 
             #region Démo Do...While : Blocante
 
-            string nb1_str;
-            short nb1;
-            bool is_convert;
-            string message = "Veuillez introduire un nombre (entre 1 et 10):";
-            do {
-                Console.WriteLine(message);
-                nb1_str = Console.ReadLine();
-                message = $"{nb1_str} n'est pas un nombre.\nVeuillez introduire un nombre (entre 1 et 10):";
-                is_convert = short.TryParse(nb1_str, out nb1);
+            //string nb1_str;
+            //short nb1;
+            //bool is_convert;
+            //string message = "Veuillez introduire un nombre (entre 1 et 10):";
+            //do {
+            //    Console.WriteLine(message);
+            //    nb1_str = Console.ReadLine();
+            //    message = $"{nb1_str} n'est pas un nombre.\nVeuillez introduire un nombre (entre 1 et 10):";
+            //    is_convert = short.TryParse(nb1_str, out nb1);
+            //}
+            //while (!is_convert) ;
+
+            #endregion
+
+            #region Démo For(...;...;...) : Simple boucle
+
+            const string MDP = "Test1234=";
+            Console.WriteLine("Mot de passe :");
+            string insert_password = Console.ReadLine();
+            for (int i = 1; i < 3 && insert_password != MDP; i++)
+            {
+                Console.WriteLine($"{insert_password} n'est pas le bon mot de passe...\nMot de passe :"); 
+                insert_password = Console.ReadLine();
             }
-            while (!is_convert) ;
+            if( insert_password == MDP ) {
+                Console.WriteLine("Bienvenue!");
+            }
+            else { Console.WriteLine("Trop de tentatives ont échoué..."); }
 
             #endregion
         }
