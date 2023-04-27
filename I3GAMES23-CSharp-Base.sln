@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-Boucles", "Demo-Boucle
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exo07 - BoucleA", "Exo07 - BoucleA\Exo07 - BoucleA.csproj", "{04ACB5A5-F95E-4AC3-8B75-93403730A56C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exo08-MotDePasse", "Exo08-MotDePasse\Exo08-MotDePasse.csproj", "{80989208-3F81-459D-8E5D-72E001CF70E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{04ACB5A5-F95E-4AC3-8B75-93403730A56C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04ACB5A5-F95E-4AC3-8B75-93403730A56C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04ACB5A5-F95E-4AC3-8B75-93403730A56C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80989208-3F81-459D-8E5D-72E001CF70E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80989208-3F81-459D-8E5D-72E001CF70E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80989208-3F81-459D-8E5D-72E001CF70E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80989208-3F81-459D-8E5D-72E001CF70E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

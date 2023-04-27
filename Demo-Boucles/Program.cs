@@ -59,7 +59,7 @@ namespace Demo_Boucles
             do {
                 Console.WriteLine(message);
                 nb1_str = Console.ReadLine();
-                message = $"{nb1_str} n'est pas un nombre.\n" + message;
+                message = $"{nb1_str} n'est pas un nombre.\nVeuillez introduire un nombre (entre 1 et 10):";
                 is_convert = short.TryParse(nb1_str, out nb1);
             }
             while (!is_convert) ;
