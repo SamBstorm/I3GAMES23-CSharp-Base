@@ -68,18 +68,34 @@ namespace Demo_Boucles
 
             #region Démo For(...;...;...) : Simple boucle
 
-            const string MDP = "Test1234=";
-            Console.WriteLine("Mot de passe :");
-            string insert_password = Console.ReadLine();
-            for (int i = 1; i < 3 && insert_password != MDP; i++)
+            //const string MDP = "Test1234=";
+            //Console.WriteLine("Mot de passe :");
+            //string insert_password = Console.ReadLine();
+            //for (int i = 1; i < 3 && insert_password != MDP; i++)
+            //{
+            //    Console.WriteLine($"{insert_password} n'est pas le bon mot de passe...\nMot de passe :"); 
+            //    insert_password = Console.ReadLine();
+            //}
+            //if( insert_password == MDP ) {
+            //    Console.WriteLine("Bienvenue!");
+            //}
+            //else { Console.WriteLine("Trop de tentatives ont échoué..."); }
+
+            #endregion
+
+            #region Démo Valeur Approximative (double et float)
+
+            //Attention, cela va donner de mauvaises valeurs
+            for (double i = 0.0; i <= 20.0; i+= 0.1)
             {
-                Console.WriteLine($"{insert_password} n'est pas le bon mot de passe...\nMot de passe :"); 
-                insert_password = Console.ReadLine();
+                Console.WriteLine(i);
             }
-            if( insert_password == MDP ) {
-                Console.WriteLine("Bienvenue!");
+
+            //Une des solutions pour contourner...
+            for (int i = 0; i <= 200; i++)
+            {
+                Console.WriteLine(i / 10D);
             }
-            else { Console.WriteLine("Trop de tentatives ont échoué..."); }
 
             #endregion
         }
