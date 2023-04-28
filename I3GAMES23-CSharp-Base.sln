@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exo09-TableMultiplication",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-Random", "Demo-Random\Demo-Random.csproj", "{0257D2D3-7022-4206-8639-C8DE20B6B17D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exo10-PlusOuMoins01", "Exo10-PlusOuMoins01\Exo10-PlusOuMoins01.csproj", "{AB387A39-DED3-4972-9C3D-25A80C4A1244}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{0257D2D3-7022-4206-8639-C8DE20B6B17D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0257D2D3-7022-4206-8639-C8DE20B6B17D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0257D2D3-7022-4206-8639-C8DE20B6B17D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB387A39-DED3-4972-9C3D-25A80C4A1244}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB387A39-DED3-4972-9C3D-25A80C4A1244}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB387A39-DED3-4972-9C3D-25A80C4A1244}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB387A39-DED3-4972-9C3D-25A80C4A1244}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
