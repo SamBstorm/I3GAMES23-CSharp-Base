@@ -25,27 +25,29 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo-Substring", "Demo-Subs
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exo05-BBAN", "Exo05-BBAN\Exo05-BBAN.csproj", "{FEC3FEFE-8A05-417B-8F79-46DEB2D06CAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exo06-IBAN", "Exo06-IBAN\Exo06-IBAN.csproj", "{C58771FB-3356-47A6-BCC1-602E25CC86CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exo06-IBAN", "Exo06-IBAN\Exo06-IBAN.csproj", "{C58771FB-3356-47A6-BCC1-602E25CC86CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-Boucles", "Demo-Boucles\Demo-Boucles.csproj", "{8D0E956D-502D-4B2B-B342-44BB32C97C43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo-Boucles", "Demo-Boucles\Demo-Boucles.csproj", "{8D0E956D-502D-4B2B-B342-44BB32C97C43}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exo07 - BoucleA", "Exo07 - BoucleA\Exo07 - BoucleA.csproj", "{04ACB5A5-F95E-4AC3-8B75-93403730A56C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exo07 - BoucleA", "Exo07 - BoucleA\Exo07 - BoucleA.csproj", "{04ACB5A5-F95E-4AC3-8B75-93403730A56C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exo08-MotDePasse", "Exo08-MotDePasse\Exo08-MotDePasse.csproj", "{80989208-3F81-459D-8E5D-72E001CF70E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exo08-MotDePasse", "Exo08-MotDePasse\Exo08-MotDePasse.csproj", "{80989208-3F81-459D-8E5D-72E001CF70E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exo09-TableMultiplication", "Exo09-TableMultiplication\Exo09-TableMultiplication.csproj", "{AFF93863-F6CA-4B25-9841-5A0925BBA159}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exo09-TableMultiplication", "Exo09-TableMultiplication\Exo09-TableMultiplication.csproj", "{AFF93863-F6CA-4B25-9841-5A0925BBA159}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-Random", "Demo-Random\Demo-Random.csproj", "{0257D2D3-7022-4206-8639-C8DE20B6B17D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo-Random", "Demo-Random\Demo-Random.csproj", "{0257D2D3-7022-4206-8639-C8DE20B6B17D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exo10-PlusOuMoins01", "Exo10-PlusOuMoins01\Exo10-PlusOuMoins01.csproj", "{AB387A39-DED3-4972-9C3D-25A80C4A1244}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exo10-PlusOuMoins01", "Exo10-PlusOuMoins01\Exo10-PlusOuMoins01.csproj", "{AB387A39-DED3-4972-9C3D-25A80C4A1244}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exo11-PlusOuMoins02", "Exo11-PlusOuMoins02\Exo11-PlusOuMoins02.csproj", "{82032ACA-61BA-44C4-8E9B-3979384B8F54}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exo11-PlusOuMoins02", "Exo11-PlusOuMoins02\Exo11-PlusOuMoins02.csproj", "{82032ACA-61BA-44C4-8E9B-3979384B8F54}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-Array", "Demo-Array\Demo-Array.csproj", "{B306C308-8928-4A63-B699-3D76D9C17ACE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo-Array", "Demo-Array\Demo-Array.csproj", "{B306C308-8928-4A63-B699-3D76D9C17ACE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-Collections", "Demo-Collections\Demo-Collections.csproj", "{F784E5E8-6FC5-4607-8363-1897F0160494}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo-Collections", "Demo-Collections\Demo-Collections.csproj", "{F784E5E8-6FC5-4607-8363-1897F0160494}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-TableauScore", "Demo-TableauScore\Demo-TableauScore.csproj", "{115DBD71-D082-4831-AD15-9EB1FD559A70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo-TableauScore", "Demo-TableauScore\Demo-TableauScore.csproj", "{115DBD71-D082-4831-AD15-9EB1FD559A70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExoTab-02", "ExoTab-02\ExoTab-02.csproj", "{81B5FAAD-2675-487F-ABFE-E84298833A51}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -141,6 +143,10 @@ Global
 		{115DBD71-D082-4831-AD15-9EB1FD559A70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{115DBD71-D082-4831-AD15-9EB1FD559A70}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{115DBD71-D082-4831-AD15-9EB1FD559A70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81B5FAAD-2675-487F-ABFE-E84298833A51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81B5FAAD-2675-487F-ABFE-E84298833A51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81B5FAAD-2675-487F-ABFE-E84298833A51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81B5FAAD-2675-487F-ABFE-E84298833A51}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
