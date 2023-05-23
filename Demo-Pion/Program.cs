@@ -29,6 +29,7 @@ namespace Demo_Pion
                     Console.Write((cell) ? PION : VIDE);
                 }
                 Console.WriteLine();
+
                 //Demander direction
                 Console.WriteLine("Voulez-vous aller à (G)auche, à (D)roite ou (Q)uitter?");
                 direction = Console.ReadKey(true).Key;
