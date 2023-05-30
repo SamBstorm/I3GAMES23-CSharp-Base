@@ -40,6 +40,9 @@ namespace Demo_struct
             recette_1.AjoutIngredient("Beurre","gramme",50);
             recette_1.AjoutIngredient("Farine","gramme",60);
             recette_1.AjoutIngredient("Sucre","gramme",60);
+            recette_1.AjoutIngredient(
+                new Ingredient { nom = "Lait", unite_mesure = "décilittre", quantite = 1 }
+                );
 
             recette_1.Affiche_Ingredients();
         }

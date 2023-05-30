@@ -31,7 +31,18 @@ namespace Demo_struct.Structs
         #endregion
 
         #region Méthodes
-        public void AjoutIngredient(string nom, string unite_mesure, int quantite)
+        public void AjoutIngredient(string nom, string unite_mesure, int quantite = 1)
+        {
+
+            Ingredient ingredient;
+            ingredient.nom = nom;
+            ingredient.unite_mesure = unite_mesure;
+            ingredient.quantite = quantite;
+
+            AjoutIngredient(ingredient);
+        }
+
+        public void AjoutIngredient(Ingredient ingredient)
         {
             if (ingredients is null)
             {
@@ -42,11 +53,6 @@ namespace Demo_struct.Structs
             //ingredients = ingredients ?? new List<Ingredient>(); 
             //OU
             //ingredients ??= new List<Ingredient>();
-
-            Ingredient ingredient;
-            ingredient.nom = nom;
-            ingredient.unite_mesure = unite_mesure;
-            ingredient.quantite = quantite;
 
             ingredients.Add(ingredient);
         }
